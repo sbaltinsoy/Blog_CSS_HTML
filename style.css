@@ -1,0 +1,265 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  letter-spacing: 1px;
+}
+
+h2 {
+  margin-bottom: 20px;
+  font-size: 30px;
+  font-weight: 500;
+}
+
+body {
+  background-color: #f1f1f1;
+  font-family: "Lato", sans-serif;
+  font-size: 14px;
+  color: #333;
+  line-height: 135%;
+}
+
+.container {
+  width: 1000px;
+  margin: 0 auto;
+}
+
+#blog-post-container {
+  width: 75%;
+  float: left;
+}
+
+#other-posts {
+  width: 25%;
+  float: left;
+  padding-left: 20px;
+}
+
+#inner-other-posts {
+  top: 20px;
+}
+
+.fixed {
+  position: fixed;
+}
+
+#author-box {
+}
+
+.box {
+  background-color: white;
+  margin-bottom: 25px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  box-shadow: 0 2px 8px 2px rgba(20, 23, 28, 0.15);
+}
+
+.p-20 {
+  padding: 20px;
+}
+
+.mt20 {
+  margin-top: 20px;
+}
+
+.blog-post {
+  position: relative;
+}
+
+.blog-post img {
+  width: 100%;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  transition: opacity 0.3s linear;
+}
+
+.blog-post img:hover {
+  opacity: 0.8;
+  cursor: pointer;
+}
+.blog-title {
+  font-weight: 700;
+}
+
+.blog-title a {
+  color: #444;
+  text-decoration: none;
+  transition: all 0.5s;
+}
+
+.blog-title a:hover {
+  color: #da4453;
+}
+
+.date {
+  position: absolute;
+  right: 20px;
+  bottom: 20px;
+  color: #aaa;
+  font-size: 12px;
+}
+
+.blog-text {
+  margin-bottom: 15px;
+  margin-top: 15px;
+  font-size: 16px;
+  color: #aaa;
+  line-height: 22px;
+  text-align: justify;
+}
+
+.tags li {
+  list-style: none;
+  display: inline;
+  margin-right: 5px;
+}
+
+.tags li a {
+  text-decoration: none;
+}
+
+#author-box {
+  border-top: 1px solid RGB(0, 0, 0, 0.125);
+  padding-top: 10px;
+}
+
+#author-box img {
+  border-radius: 50%;
+  float: left;
+}
+
+.author-text {
+  float: left;
+  margin-top: 50px;
+  margin-left: 20px;
+}
+
+#share a {
+  color: gray;
+  text-decoration: none;
+  margin-right: 12px;
+  opacity: 0.9;
+}
+
+#share a:hover {
+  opacity: 0.6;
+}
+
+.other-ul {
+  list-style-type: none;
+}
+
+.other-ul li {
+  margin-bottom: 10px;
+}
+
+.other-ul li:hover {
+  cursor: pointer;
+  opacity: 0.6;
+}
+
+.header {
+  margin-bottom: 15px;
+  border-bottom: 1px solid rgb(0, 0, 0, 0.2);
+  padding-bottom: 10px;
+}
+
+.tag {
+  display: inline-block;
+  padding-right: 8px;
+  padding-left: 8px;
+  text-align: center;
+  border-radius: 3px;
+}
+.btn {
+  display: inline-block;
+  font-size: 10px;
+  padding: 5px 10px;
+  margin-top: 10px;
+  border-radius: 4px;
+  background-color: #000;
+  color: #ffff;
+  text-transform: uppercase;
+  cursor: pointer;
+  border: 1px solid transparent;
+  transition: background-color 0.3s;
+  transition-timing-function: linear;
+}
+
+.btn:hover {
+  background-color: #ffff;
+  color: #000;
+  border: 1px solid gray;
+}
+
+#nav {
+  background-color: #333;
+}
+
+.box-help {
+  width: 20%;
+  background-color: gray;
+  color: snow;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  padding: 20px;
+  opacity: 0.6;
+  transition: opacity 1s;
+  line-height: 22px;
+}
+
+.box-help:hover {
+  cursor: pointer;
+  opacity: 1;
+}
+
+#developer-image {
+  display: block;
+  margin: auto;
+  border-radius: 50%;
+  margin-bottom: 15px;
+}
+
+#developer-mail {
+  text-decoration: none;
+  color: brown;
+  font-weight: bold;
+}
+
+#developer-mail:hover {
+  color: blue;
+}
+
+#nav {
+  background-color: #333;
+}
+
+#nav ul {
+  list-style-type: none;
+  overflow: hidden;
+}
+
+#nav li {
+  float: left;
+}
+
+#nav li a {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  transition: background-color 0.3s linear;
+}
+
+li {
+  list-style: none;
+}
+#nav li a:hover {
+  background-color: #111;
+}
+
+.active {
+  background-color: #dd4453;
+}
